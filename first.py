@@ -20,9 +20,11 @@ print("Sum of two numbers is {}".format(x+y))
 
 
 #creating pandas DataFrame
-import pandas as pd
+import pandas
 
-data=pd.DataFrame.from_dict(data={'A':{0:1,1:2,2:3},
+a= pandas.DataFrame()
+
+data=pandas.DataFrame.from_dict(data={'A':{0:1,1:2,2:3},
                              'B':{0:3,1:4,2:5},
                              'C':{0:7,1:8,2:9}
                              })
